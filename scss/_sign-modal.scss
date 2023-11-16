@@ -1,0 +1,51 @@
+.sign {
+	&__container {
+		padding: 30px;
+	}
+
+	&__title {
+		padding: 31px 0px;
+		color: #000;
+		font-size: 24px;
+		line-height: 68px; /* 283.333% */
+		text-transform: uppercase;
+	}
+
+	&__form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__input {
+		margin-bottom: 18px;
+	}
+
+	&__checkbox {
+		display: flex;
+		gap: 10px;
+		cursor: pointer;
+		& span {
+			display: block;
+			width: 10px;
+			height: 10px;
+			border: 2px solid #828282;
+			margin-top: 4px;
+		}
+		padding-bottom: 82px;
+	}
+
+	&__text {
+		color: var(--Gray-1, #828282);
+		font-size: 14px;
+		line-height: 20px; /* 142.857% */
+		font-family: 'Roboto';
+		max-width: 299px;
+	}
+
+	&__btn {
+		margin-bottom: 15px;
+	}
+}
+.sign-open {
+	transform: translateX(0);
+}
