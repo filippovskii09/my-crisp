@@ -36,3 +36,140 @@ main {
 	  margin-top: rem(90);
   }
 }
+
+// ========= main products list 
+
+.products {
+	padding-top: 15px;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		@media (max-width: 1310px){
+			flex-direction: column;
+			row-gap: 20px;
+		}
+	}
+
+	&__sidebar {
+	}
+
+	&__list {
+		display: flex;
+		gap: 25px;
+		flex-wrap: wrap;
+		row-gap: 48px;
+		max-width: 1454px;
+		gap: 25px;	
+		margin-bottom: 63px;
+		@media (max-width: 1700px){
+			max-width: 1277px;
+		}
+		@media (max-width: 1490px){
+			max-width: 1115px;
+		}
+		@media (max-width: 1310px){
+			max-width: 1278px;
+			justify-content: center;
+		}
+	}
+	&__item {
+		
+	}
+}
+.sidebar-products {
+
+	&__title {
+	}
+
+	&__list {
+		@media (max-width: 1310px){
+			display: flex;
+			gap: 25px;
+			flex-wrap: wrap;
+			row-gap: 10px;
+		}
+	}
+
+	&__item {
+	}
+}
+
+.item-products {
+
+	&__image {
+		& img {
+			@media (max-width: 1700px){
+				width: 300px;
+			}
+			@media (max-width: 1490px){
+				width: 260px;
+			}
+			@media (max-width: 575px){
+				width: 200px;
+			}
+			@media (max-width: 455px){
+				width: 160px;
+			}
+			@media (max-width: 375px){
+				width: 120px;
+			}
+		}
+	}
+
+	&__category {
+		color: var(--Gray-4, #BDBDBD);
+		font-size: 12px;
+		font-weight: 600;
+		text-transform: uppercase;
+		margin-top: 14px;
+		margin-bottom: 4px;
+		@media (max-width: 575px){
+			margin-top: 8px;
+		}
+		@media (max-width: 455px){
+			font-size: 10px;
+		}
+		@media (max-width: 375px){
+			font-weight: 400;
+			margin-top: 4px;
+		}
+	}
+
+	&__name {
+		color: #000;
+		font-size: 18px;
+		font-weight: 300;
+		padding-bottom: 18px;
+		line-height: 18px;
+		@media (max-width: 575px){
+			max-width: 160px;
+			padding-bottom: 10px;
+			font-size: 16px;
+		}
+		@media (max-width: 455px){
+			font-size: 14px;
+			max-width: 140px;
+		}
+		@media (max-width: 375px){
+			font-size: 12px;
+			max-width: 110px;
+			padding-bottom: 4px;
+		}
+	}
+
+	&__price {
+		color: var(--Black, #000);
+		font-size: 22px;
+		font-weight: 500;
+		text-transform: uppercase;
+		@media (max-width: 575px){
+			font-size: 20px;
+		}
+		@media (max-width: 455px){
+			font-size: 18px;
+		}
+		@media (max-width: 375px){
+			font-size: 16px;
+		}
+	}
+}
