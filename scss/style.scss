@@ -559,6 +559,49 @@ main {
 	}
 }
 
+// another
+
+.another {
+	padding: 67px 0px;
+	&__container {
+		overflow: hidden;
+	}
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 26px;
+		& svg {
+			cursor: pointer;
+		}
+	}
+
+	&__title {
+		color: #000;
+		font-family: Oswald;
+		font-size: 24px;
+	}
+
+	&__actions {
+		display: flex;
+		align-items: center;
+		gap: 4px;
+	}
+
+	&__row {
+		display: flex;
+		gap: 40px;
+		overflow: scroll;
+		overflow-y: hidden;
+		padding-bottom: 30px;
+		white-space: nowrap;
+	}
+
+	&__column {
+	}
+}
+
 // explore
 
 .explore {
