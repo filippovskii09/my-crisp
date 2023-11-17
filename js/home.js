@@ -44,7 +44,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			 displayProducts(categoryRadios[0].id);
   
 		} catch (error) {
-			 console.log(error);
+			 console.error(error);
 		}
   }
   
