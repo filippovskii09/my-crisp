@@ -1,0 +1,71 @@
+	// customize double input range
+		const minVal = document.querySelector(".min-val");
+		const maxVal = document.querySelector(".max-val");
+		const priceInputMin = document.querySelector(".min-input");
+		const priceInputMax = document.querySelector(".max-input");
+		const range = document.querySelector(".slider-track");
+		const sliderMinValue = parseInt(minVal.min);
+		const sliderMaxValue = parseInt(maxVal.max);
+
+		const storedMinValue = localStorage.getItem("minValue");
+		const storedMaxValue = localStorage.getItem("maxValue");
+  
+		minVal.value = storedMinValue || sliderMinValue;
+		maxVal.value = storedMaxValue || sliderMaxValue;  
+
+		slideMin();
+    	slideMax();
+	 
+		function slideMin() {
+		  let gap = parseInt(maxVal.value) - parseInt(minVal.value);
+		  if (gap <= 0) {
+			 minVal.value = parseInt(maxVal.value);
+		  }
+		  priceInputMin.value = minVal.value;
+		  setArea();
+		  saveValuesToLocalStorage();
+		}
+	 
+		function slideMax() {
+		  let gap = parseInt(maxVal.value) - parseInt(minVal.value);
+		  if (gap <= 0) {
+			 maxVal.value = parseInt(minVal.value);
+		  }
+		  priceInputMax.value = maxVal.value;
+		  setArea();
+		  saveValuesToLocalStorage();
+		}
+	 
+		function setArea() {
+		  range.style.left = `${
+			 ((minVal.value - sliderMinValue) / (sliderMaxValue - sliderMinValue)) * 100
+		  }%`;
+		  range.style.right = `${
+			 100 -
+			 ((maxVal.value - sliderMinValue) / (sliderMaxValue - sliderMinValue)) * 100
+		  }%`;
+		}
+	 
+		minVal.addEventListener("input", () => {
+		  slideMin();
+		});
+	 
+		maxVal.addEventListener("input", () => {
+		  slideMax();
+		});
+	 
+		priceInputMin.addEventListener("input", () => {
+		  minVal.value = priceInputMin.value;
+		  slideMin();
+		});
+	 
+		priceInputMax.addEventListener("input", () => {
+		  maxVal.value = priceInputMax.value;
+		  slideMax();
+		});
+
+		function saveValuesToLocalStorage() {
+			localStorage.setItem("minValue", minVal.value);
+			localStorage.setItem("maxValue", maxVal.value);
+	  }
+	

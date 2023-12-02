@@ -7,10 +7,10 @@
 	  "category": "TOP women",
 	  "color": "#ec282e",
 	  "size": [
-		"w32", "w33", "w34" 
+		"w32", "w33", "w34", "w26", "w40", "w48"
 	  ],
-	  "length": "hight low",
-	  "brand": "prada",
+	  "length": "short",
+	  "brand": "State",
 	  "article": "A1B2C3D4"
 	},
 	{
@@ -21,10 +21,10 @@
 		"category": "Best sellers",
 		"color": "#101f4b",
 		"size": [
-			"w26", "w27", "w28" 
+			"w26", "w27", "w28", "w36", "w48", "w29"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "short",
+		"brand": "Cooper",
 		"article": "E5F6G7H8"
 	},
 	{
@@ -35,9 +35,9 @@
 		"category": "NEW Arivals",
 		"color": "#5db7e5",
 		"size": [
-			"w29", "w30", "w31"
+			"w26", "w27", "w28", "w29", "w30", "w31"
 		],
-		"length": "hight low",
+		"length": "midi",
 		"brand": "bardot",
 		"article": "I9J0K1L2"
 	 },
@@ -49,10 +49,10 @@
 		"category": "TOP women",
 		"color": "#88829a",
 		"size": [
-			"w28", "w30", "w34"
+			"w32", "w33", "w34", "w35", "w36", "w38"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "midi",
+		"brand": "alfani",
 		"article": "M3N4O5P6"
 	 },
 	 {
@@ -63,10 +63,10 @@
 		"category": "Collection: Summer",
 		"color": "#88829a",
 		"size": [
-			"w35", "w36", "w38"
+			"w40", "w42", "w44", "w46", "w48", "w50"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "cece",
 		"article": "Q7R8S9T0"
 	 },
 	 {
@@ -77,10 +77,10 @@
 		"category": "Collection: spring",
 		"color": "##e8e7e5",
 		"size": [
-			"w40", "w42", "w44"
+			"w52", "w26", "w27", "w28", "w29", "w30"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "donna ricco",
 		"article": "U1V2W3X4"
 	 },
 	 {
@@ -91,10 +91,10 @@
 		"category": "TREnding",
 		"color": "#242a39",
 		"size": [
-			"w46", "w48", "w50"
+			"w31", "w32", "w33", "w34", "w35", "w36"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "donna ricco",
 		"article": "Y5Z6A7B8"
 	 },
 	 {
@@ -105,10 +105,10 @@
 		"category": "TOP women",
 		"color": "#BDBDBD",
 		"size": [
-			"w46", "w52", "w50"
+			"w38", "w40", "w42", "w44", "w46", "w48"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "midi",
+		"brand": "donna ricco",
 		"article": "C9D0E1F2"
 	 },
 	 {
@@ -119,10 +119,10 @@
 		"category": "Best sellers",
 		"color": "#d2b398",
 		"size": [
-			"w46", "w52", "w50"
+			"w50", "w52", "w26", "w27", "w28", "w29"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "midi",
+		"brand": "donna ricco",
 		"article": "G3H4I5J6"
 	 },
 	 {
@@ -133,10 +133,10 @@
 		"category": "NEW Arivals",
 		"color": "#344672",
 		"size": [
-			"w46", "w52", "w50"
+			"w30", "w31", "w32", "w33", "w34", "w35"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "donna ricco",
 		"article": "K7L8M9N0"
 	 },
 	 {
@@ -147,7 +147,7 @@
 		"category": "TOP women",
 		"color": "#c01245",
 		"size": [
-			"w46", "w52", "w50"
+			"w36", "w38", "w40", "w42", "w44", "w46"
 		],
 		"length": "hight low",
 		"brand": "bardot",
@@ -161,9 +161,9 @@
 		"category": "Collection: Summer",
 		"color": "#c0d4f2",
 		"size": [
-			"w46", "w52", "w50"
+			"w48", "w50", "w52", "w26", "w27", "w28"
 		],
-		"length": "hight low",
+		"length": "midi",
 		"brand": "bardot",
 		"article": "S5T6U7V8"
 	 },
@@ -175,7 +175,7 @@
 		"category": "Collection: spring",
 		"color": "#7c6d6d",
 		"size": [
-			"w46", "w52", "w50"
+			"w29", "w30", "w31", "w32", "w33", "w34"
 		],
 		"length": "hight low",
 		"brand": "bardot",
@@ -189,7 +189,7 @@
 		"category": "TREnding",
 		"color": "#BDBDBD",
 		"size": [
-			"w46", "w52", "w50"
+			"w35", "w36", "w38", "w40", "w42", "w44"
 		],
 		"length": "hight low",
 		"brand": "bardot",
@@ -203,10 +203,10 @@
 		"category": "Best sellers",
 		"color": "#3a5e79",
 		"size": [
-			"w46", "w52", "w50"
+			"w46", "w48", "w50", "w52", "w26", "w27"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "cece",
 		"article": "I1J2K3L4"
 	 },
 	 {
@@ -217,10 +217,10 @@
 		"category": "NEW Arivals",
 		"color": "#8d373b",
 		"size": [
-			"w46", "w52", "w50"
+			"w28", "w29", "w50", "w52", "w26", "w27"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "cece",
 		"article": "E7F8G9H0"
 	 },
 	 {
@@ -231,10 +231,10 @@
 		"category": "TOP women",
 		"color": "#BDBDBD",
 		"size": [
-			"w46", "w52", "w50"
+			"w28", "w29", "w50", "w52", "w26", "w27"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "cece",
 		"article": "M5N6O7P8"
 	 },
 	 {
@@ -245,10 +245,10 @@
 		"category": "Collection: Summer",
 		"color": "#abadb1",
 		"size": [
-			"w46", "w52", "w50"
+			"w28", "w29", "w50", "w52", "w26", "w27"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "midi",
+		"brand": "cece",
 		"article": "Q9R0S1T2"
 	 },
 	 {
@@ -259,7 +259,7 @@
 		"category": "Collection: spring",
 		"color": "#a3b78c",
 		"size": [
-			"w46", "w52", "w50"
+			"w28", "w29", "w50", "w52", "w26", "w27"
 		],
 		"length": "hight low",
 		"brand": "bardot",
@@ -273,9 +273,9 @@
 		"category": "TREnding",
 		"color": "#000",
 		"size": [
-			"w46", "w52", "w50"
+			"w28", "w29", "w50", "w52", "w26", "w27"
 		],
-		"length": "hight low",
+		"length": "knee length",
 		"brand": "bardot",
 		"article": "Y7Z8A9B0"
 	 },
@@ -287,10 +287,10 @@
 		"category": "Best sellers",
 		"color": "#d53a44",
 		"size": [
-			"w46", "w52", "w50"
+			"w28", "w29", "w50", "w52", "w26", "w27"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "midi",
+		"brand": "alfani",
 		"article": "C1D2E3F4"
 	 },
 	 {
@@ -301,10 +301,10 @@
 		"category": "NEW Arivals",
 		"color": "#BDBDBD",
 		"size": [
-			"w46", "w52", "w50"
+			"w28", "w29", "w50", "w52", "w26", "w27"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "alfani",
 		"article": "G5H6I7J8"
 	 },
 	 {
@@ -315,10 +315,10 @@
 		"category": "Collection: Summer",
 		"color": "#53587a",
 		"size": [
-			"w46", "w52", "w50"
+			"w28", "w29", "w50", "w52", "w26", "w27"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "knee length",
+		"brand": "alfani",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -329,10 +329,10 @@
 		"category": "Collection: spring",
 		"color": "#000",
 		"size": [
-			"w46", "w52", "w50"
+			"w28", "w29", "w33", "w52", "w36", "w42"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "knee length",
+		"brand": "alfani",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -343,10 +343,10 @@
 		"category": "TREnding",
 		"color": "#be9b8f",
 		"size": [
-			"w46", "w52", "w50"
+			"osfa"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "knee length",
+		"brand": "alfani",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -357,10 +357,10 @@
 		"category": "Best sellers",
 		"color": "#96043e",
 		"size": [
-			"w46", "w52", "w50"
+			"osfa"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "knee length",
+		"brand": "alfani",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -371,10 +371,10 @@
 		"category": "NEW Arivals",
 		"color": "#BDBDBD",
 		"size": [
-			"w46", "w52", "w50"
+			"osfa"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "knee length",
+		"brand": "alfani",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -385,10 +385,10 @@
 		"category": "TOP women",
 		"color": "#BDBDBD",
 		"size": [
-			"w46", "w52", "w50"
+			"osfa"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "knee length",
+		"brand": "State",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -399,10 +399,10 @@
 		"category": "Collection: Summer",
 		"color": "#000",
 		"size": [
-			"w46", "w52", "w50"
+			"osfa"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "State",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -413,10 +413,10 @@
 		"category": "Collection: spring",
 		"color": "#BDBDBD",
 		"size": [
-			"w46", "w52", "w50"
+			"osfa"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "State",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -427,10 +427,10 @@
 		"category": "TREnding",
 		"color": "#e6ac8a",
 		"size": [
-			"w46", "w52", "w50"
+			"osfa"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "State",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -441,10 +441,10 @@
 		"category": "Best sellers",
 		"color":"#d2b7a4",
 		"size": [
-			"w46", "w52", "w50"
+			"w26", "w29", "w31", "w33", "w34", "w38"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "State",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -455,10 +455,10 @@
 		"category": "NEW Arivals",
 		"color": "#BDBDBD",
 		"size": [
-			"w46", "w52", "w50"
+			"w38", "w40", "w42", "w44", "w46", "w48"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "State",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -469,10 +469,10 @@
 		"category": "Collection: Summer",
 		"color": "#9c0419",
 		"size": [
-			"w46", "w52", "w50"
+			"w50", "w52", "w32", "w34", "w36", "w28"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "knee length",
+		"brand": "State",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -483,10 +483,10 @@
 		"category": "Collection: spring",
 		"color": "#000",
 		"size": [
-			"w46", "w52", "w50"
+			"w26", "w27", "w33", "w31", "w29", "w27"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "Cooper",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -497,10 +497,11 @@
 		"category": "TREnding",
 		"color": "#000",
 		"size": [
-			"w46", "w52", "w50"
+			"w28", "w29", "w30", "w31", "w32", "w33"
 		],
 		"length": "hight low",
-		"brand": "bardot"
+		"brand": "Cooper",
+		"article": "K9L5M1N2"
 	 },
 	 {
 		"id": "37",
@@ -510,10 +511,10 @@
 		"category": "Best sellers",
 		"color": "#f2d6a7",
 		"size": [
-			"w46", "w52", "w50"
+			"w34", "w36", "w38", "w40", "w42", "w44"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "Cooper",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -524,10 +525,10 @@
 		"category": "NEW Arivals",
 		"color": "#000",
 		"size": [
-			"w46", "w52", "w50"
+			"w46", "w48", "w50", "w52", "w26", "w27"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "Cooper",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -538,10 +539,10 @@
 		"category": "TOP women",
 		"color":"#4b82b0",
 		"size": [
-			"w46", "w52", "w50"
+			"w46", "w48", "w50", "w52", "w26", "w27"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "knee length",
+		"brand": "Cooper",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -552,10 +553,10 @@
 		"category": "Collection: Summer",
 		"color": "#000",
 		"size": [
-			"w46", "w52", "w50"
+			"w46", "w48", "w50", "w52", "w26", "w27"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "Cooper",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -566,10 +567,10 @@
 		"category": "Collection: spring",
 		"color": "#ff7d2b",
 		"size": [
-			"w46", "w52", "w50"
+			"w46", "w48", "w50", "w52", "w26", "w27"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "State",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -580,10 +581,10 @@
 		"category": "TREnding",
 		"color": "#BDBDBD",
 		"size": [
-			"w46", "w52", "w50"
+			"w30", "w31", "w32", "w33", "w34", "w28"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "State",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -594,10 +595,10 @@
 		"category": "TREnding",
 		"color": "#394a61",
 		"size": [
-			"w46", "w52", "w50"
+			"w34", "w36", "w38", "w44", "w46", "w29"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "State",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -608,10 +609,10 @@
 		"category": "TREnding",
 		"color": "#394a61",
 		"size": [
-			"w46", "w52", "w50"
+			"w34", "w36", "w38", "w44", "w46", "w29"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "State",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -622,10 +623,10 @@
 		"category": "TREnding",
 		"color": "#309272",
 		"size": [
-			"w46", "w52", "w50"
+			"w34", "w36", "w38", "w44", "w46", "w29"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "State",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -636,10 +637,10 @@
 		"category": "Collection: Summer",
 		"color": "#bdaecf",
 		"size": [
-			"w46", "w52", "w50"
+			"w34", "w36", "w38", "w44", "w46", "w29"
 		],
 		"length": "hight low",
-		"brand": "bardot",
+		"brand": "State",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -650,10 +651,10 @@
 		"category": "NEW Arivals",
 		"color": "#BDBDBD",
 		"size": [
-			"w46", "w52", "w50"
+			"osfa"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "long",
+		"brand": "State",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -664,10 +665,10 @@
 		"category": "Best sellers",
 		"color": "#a4857a",
 		"size": [
-			"w46", "w52", "w50"
+			"osfa"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "long",
+		"brand": "State",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -678,10 +679,10 @@
 		"category": "Best sellers",
 		"color": "#72928e",
 		"size": [
-			"w46", "w52", "w50"
+			"osfa"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "long",
+		"brand": "cece",
 		"article": "K9L0M1N2"
 	 },
 	 {
@@ -692,10 +693,10 @@
 		"category": "Best sellers",
 		"color": "#BDBDBD",
 		"size": [
-			"w46", "w52", "w50"
+			"osfa"
 		],
-		"length": "hight low",
-		"brand": "bardot",
+		"length": "long",
+		"brand": "cece",
 		"article": "K9L0M1N2"
 	 }
 ]

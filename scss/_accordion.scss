@@ -1,0 +1,156 @@
+.accordion-toggle {
+	display: block;
+ }
+ 
+ .accordion-content {
+	display: none;
+}
+ 
+ .accordion-content.active {
+	display: block;
+}
+
+.plusminus {
+	position: relative;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+	
+	&.active {
+		&:before {
+			transform: translatey(-50%) rotate(-90deg);
+			opacity: 0;
+		}
+		&:after {
+			transform: translatey(-50%) rotate(0);
+		}
+	}
+	
+	&:before , &:after {
+		content: "";
+		display: block;
+		background-color: #333;
+		position: absolute;		
+		top: 50%; left: 0;
+		transition: .35s;
+		width: 100%;
+		height: 2px;
+	}
+	
+	&:before {		
+		transform: translatey(-50%);
+	}
+	
+	&:after {
+		transform: translatey(-50%) rotate(90deg);
+	}
+}
+.sidebar-products {
+	display: flex;
+	flex-direction: column;
+	row-gap: 50px;
+}
+.filter-sidebar {
+	width: 355px;
+	padding-top: 20px;
+	@media (max-width: 1900px){
+		width: 280px;
+	}
+	@media (max-width: 1500px){
+		width: 240px;
+	}
+	@media (max-width: 1375px){
+		width: 190px;
+	}
+}
+.sidebar-products {
+
+	&__filter {
+	}
+}
+.filter-sidebar {
+
+	&__name {
+		& a {
+			color: #000;
+			font-size: 24px;
+			@media (max-width: 1375px){
+				font-size: 20px;
+			}
+		}
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.brands-accordion {
+
+		&__list {
+			display: flex;
+			flex-direction: column;
+			row-gap: 20px;
+			padding-top: 31px;
+			@media (max-width: 1375px){
+				padding-top: 20px;
+				row-gap: 15px;
+			}
+		}
+
+		&__checkbox {
+			display: flex;
+			gap: 9px;
+			align-items: center;
+			& label {
+				color: var(--Black-2, #3F3F3F);
+				font-family: Roboto;
+				font-size: 14px;
+				text-transform: uppercase;
+			}
+		}
+}
+
+.size-accordion {
+
+		&__list {
+			display: flex;
+			max-width: 270px;
+			gap: 10px;
+			flex-wrap: wrap;
+			padding-top: 31px;
+			@media (max-width: 1500px){
+				max-width: 215px;
+			}
+			@media (max-width: 1375px){
+				max-width: 175px;
+			}
+		}
+
+		&__checkbox {
+			& input {
+				display: none;
+			}
+			& label {
+				border: 1px solid var(--Divider, #C4C4C4);
+				width: 46px;
+				height: 46px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: var(--Gray-1, #828282);
+				font-size: 14px;
+				text-transform: uppercase;
+				cursor: pointer;
+				@media (max-width: 1375px){
+					width: 36px;
+					height: 36px;
+					font-size: 12px;
+				}
+			}
+		}
+}
+
+.active-size label{
+	border: 1px solid var(--Black, #000);
+	color: #000;
+}
