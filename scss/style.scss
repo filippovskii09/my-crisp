@@ -1085,13 +1085,19 @@ main {
 	}
 	@media (max-width: 768px){
 		position: absolute;
-		left: 0;
+		left: -100%;
 		top: 0;
 		transition: all 0.3s ease 0s;
-		width: 100%;
+		width: 300px;
 		height: 100%;
+		overflow-y: scroll;
 		background-color: #fff;
 		z-index: 2000;
+		padding: 10px 20px;
+		padding-top: 60px;
+	}
+	@media (max-width: 375px){
+		width: 100%;
 	}
 }
 .colors-accordion__list {
@@ -1245,6 +1251,9 @@ input[type="range"]::-moz-range-thumb {
 		padding: 23px;
 		border: 1px solid #000;
 		position: relative;
+		@media (max-width: 768px){
+			padding: 15px;
+		}
 	}
 }
 .sidebar-filters {
@@ -1256,12 +1265,22 @@ input[type="range"]::-moz-range-thumb {
 		position: absolute;
 		right: 22px;
 		top: 33px;
+		@media (max-width: 768px){
+			right: 10px;
+			top: 16px;
+			font-size: 12px;
+		}
 	}
 	&__title {
 		padding-bottom: 46px;
 		color: #000;
 		font-size: 32px;
 		padding-top: 28px;
+		@media (max-width: 768px){
+			padding-top: 0px;
+			font-size: 22px;
+			padding-bottom: 20px;
+		}
 	}
 
 	&__list {
@@ -1279,6 +1298,9 @@ input[type="range"]::-moz-range-thumb {
 		color: #000;
 		font-size: 24px;
 		padding-bottom: 16px;
+		@media (max-width: 768px){
+			font-size: 18px;
+		}
 	}
 
 	&__choosed {
@@ -1289,6 +1311,9 @@ input[type="range"]::-moz-range-thumb {
 			color: #000;
 			font-family: Roboto;
 			font-weight: 400;
+			@media (max-width: 768px){
+				font-size: 12px;
+			}
 		}
 	}
 
@@ -1314,13 +1339,12 @@ input[type="range"]::-moz-range-thumb {
 	}
 }
 
-.open-filters {
-	top: 0;
-}
-
 #close-sidebar {
 	display: none;
 	@media (max-width: 768px){
 		display: block;
+		position: absolute;
+		right: 20px;
+		top: 20px;
 	}
 }

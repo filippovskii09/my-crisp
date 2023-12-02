@@ -470,9 +470,10 @@ window.addEventListener('DOMContentLoaded', () => {
 			closeFilters = document.querySelector('#close-sidebar');
 
 	openFiltersButton.addEventListener('click', () => {
-		filtersMenu.classList.add('open-filters')
+		filtersMenu.style.left = 0;
 	})
+	
 	closeFilters.addEventListener('click', () => {
-		filtersMenu.classList.remove('open-filters')
+		filtersMenu.style.left = '-100%';
 	})
 })
